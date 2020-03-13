@@ -6,6 +6,11 @@
 
 def square_array(array)
   
+# Allocate an array with the same size as `numbers`
+# so that the runtime does not have to resize it from time to time
+
+  result = Array.new(numbers.size)
+  
   i = 0 
   while i < array.length do 
     puts (array[i])**2
