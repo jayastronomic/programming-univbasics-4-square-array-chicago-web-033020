@@ -11,10 +11,7 @@ def square_array(array)
     puts (array[i])**2
     i += 1
   end
-
+  
 end
 
-numbers = [1,2,3]
-result = []
-result << square_array(numbers)
 
