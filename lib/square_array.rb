@@ -16,7 +16,7 @@ result = Array.new(array.size)
     puts (array[i])**2
     i += 1
   end
-  
+  return result 
 end
 
 numbers = [1, 2, 3]
