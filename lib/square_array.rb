@@ -12,7 +12,7 @@ def square_array(array)
     puts  result << (array[i])**2
     i += 1
   end
-  
+  return result
 end
 
 
