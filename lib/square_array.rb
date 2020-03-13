@@ -10,6 +10,7 @@ def square_array(array)
     puts (array[i])**2
     i += 1
   end
+  return 
 end
 
 numbers = [1, 2, 3]
